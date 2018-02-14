@@ -15,7 +15,7 @@ Describe the basic functionality of your piece of hardware.
 What makes a good <insert name of hardware piece here> ? What should you look for when buying one? What if you are on a budget?
   
   
-  Success Criteria
+    Success Criteria
 
 I can use correct terminology to describe computer hardware, speed measurements, and size measurements			
 

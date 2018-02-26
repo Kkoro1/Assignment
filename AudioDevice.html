@@ -2,10 +2,196 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Computer Science Assignment</title>
+        <title>Audio Devices</title>
+        <meta name="viewport" content="width-divice-width, initial scale=1.0">
+        <link rel="stylesheet" href="blueberry.css"/>
+        <style type="text/css">
+            * {margin: 0;
+                border:0;
+                padding:0;
+            }
+            body {
+                background:rgb(223, 228, 230);
+                font:14px/20px arial, sans-serif;
+                color:rgb(36, 36, 36);
+                margin:0;
+            }
+            h2 {
+                text-align: center;
+                font-size: 145%;
+                line-height:120%;
+                padding:5% 0;
+            }
+            h3 {
+                text-decoration:underline;
+                line-height:280%;
+                padding-left:2%;
+            }
+            h4 {
+                color:white;
+                line-height:110%;
+                padding:5% 0;
+            }
+            p {
+                padding:1%;
+            }
+            img {
+                text-align:center;
+                max-width:400px;
+                height:auto;
+                width:auto;
+            }
+            a {
+                color:rgb(255, 255, 255);
+                text-decoration:none;
+                font-weight:bold;
+            }
+            a:hover {
+               color:white;
+               text-decoration:underline;
+            }
+            h2 {
+                background: rgb(195, 203, 235);
+                width:100%;
+                height:86px;
+                position:fixed;
+                top:0;
+                left:0;
+                z-index:100;
+                opacity:0.90%;
+            }
+            #logo{
+                margin:20px;
+                float:left;
+                width:200px;
+                height:60px;
+                background:url(https://www.kasandbox.org/programming-images/space/star.png) no-repeat center;
+            }
+            nav {
+                float:right;
+                padding:35px 20px 20px 0px;
+            }
+            #menu-icon{
+                display:hidden;
+                width:40px;
+                height:40px;
+                background:url(https://www.kasandbox.org/programming-images/space/0.png) center;
+            }
+            a:hover#menu-icon {
+                border-radius:4px 4px 0 0;    
+            }
+            ul {
+                list-style:none;
+            }
+            nav ul li {
+                display:inline-block;
+                float:left;
+                padding:10px;
+            }
+            .current {
+                color:white;
+                text-decoration:underline;
+            }
+            #doc {
+                margin:40px 0;
+            }
+            #content {
+                margin:0 auto;
+                max-width:1140px;
+                margin-top:110px;
+            }
+            .blueberry {
+                max-width:960px;
+                margin-top:110px;
+            }
+            section{
+                width:29%;
+                float:left;
+                margin:2% 2%;
+                text-align:center;
+            }
+            .clear{
+                clear:both;
+            }
+            footer{
+                background:rgb(101, 140, 199);
+                width:100%;
+                overflow:hidden;
+                opacity:0.90%;
+            }
+            footer p{
+                color:white;
+                text-decoration:none;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery.blueberry.js"></script>
+        <script>
+            $(window).load(function() {
+                $('.blueberry').blueberry();
+                });
+        </script>
     </head>
+   
     <body>
-<h2>Here is how to Choose an Audio device</h2>
-
+        <h2>
+            <a href="#" id="logo"></a>
+                <nav>
+            <a href="#" id="menu-icon"></a>
+                <ul>
+                    <li><a href="#"class="curent">Overview</a></li>
+                    <li><a href="#aude">About</a></li>
+                    <li><a href="#inout">Input</a></li>
+                    <li><a href="#cash">Output</a></li>
+                </ul>
+                </nav>
+        </h2>   
+<div id="doc">
+    <div id="content">
+        <div class="blueberry">
+            <ul class="slides">
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Continuum-Side-view.jpg/375px-Continuum-Side-view.jpg" alt="MIDI keyboard"> </li> 
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Shure_mikrofon_55S.jpg" alt="old microphone" width="400"> </li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Logitech-usb-speakers.jpg" alt="pair of speakers" width="400"> </li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/00/S%C5%82uchawki_referencyjne_K-701_firmy_AKG.jpg" alt="headphones on stand" width="400"> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<section>
+    <li><img src="https://www.kasandbox.org/programming-images/space/1.png"> </li> 
+    <h3 id="aude">About</h3>
+    <p>An audio device is of/or relating to sound or hearing; relating to or employed in the transmission, reception, or reproduction of sound; of, concerned with, or operating at audio frequencies <br><br> Pricing can range from $100 to $4,000. Pieces may cost as little as $1-$50.</p>
+</section>
+<section>
+    <li><img src="https://www.kasandbox.org/programming-images/space/2.png"> </li> 
+    <h3 id="inout">Input</h3>
+    <p>
+An input device is a hardware or peripheral device used to send data to a computer. An input device allows users to communicate and feed instructions and data to computers for processing, display, storage and/or transmission.
+An input accepts the output signal -- an audio-frequency voltage -- from an external piece of equipment. For example, you connect tuners, musical instruments, or microphones to an amplifier's input.
+</p>
+</section>
+<section>
+    <li><img src="https://www.kasandbox.org/programming-images/space/3.png"> </li> 
+    <h3 id="cash">Output</h3>
+    <p>An output device is any device used to send data from a computer to another device or user. Most computer data output that is meant for humans is in the form of audio or video. Thus, most output devices used by humans are in these categories. Examples include monitors, projectors, speakers, headphones and printers. Audio outputs, by contrast, produce signals that drive another unit's input. Very little signal appears at an unconnected input, as it expects audio from an external device. To its output, you connect loudspeakers or headphones.</p>
+</section>
+<p> 
+The inputs and outputs of a computer sound card work in a similar way  
+the input takes in signals from a variety of sources
+the outputs drive the inputs of other audio devices, such as speakers
+</p>
+<footer>
+    <section>
+        <h4><b>Ksenia Korolkevitch</b></h4>
+        <p><b>kkoro1@ocdsb.ca</b><br><br> ICS2O<br>2018</p>
+    </section>
+    <section>
+        <img src="https://www.kasandbox.org/programming-images/avatars/starky-sapling.png" alt="khan academy avatar">
+    </section>
+    <section>
+        <p>©Copyright- kkoro 2018</p>
+    </section>
+</footer>
     </body>
 </html>

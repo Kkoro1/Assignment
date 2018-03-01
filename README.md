@@ -23,8 +23,10 @@ I can describe the functions of the internal, network, and/or peripheral compone
 
 
     Log - 3/1/2018
-    
+####What I learned
 I think that learning about this was interesting. It was also kind of a challenge to find information on audio devices and the types.
 As it would take me to sites about input or output devices, things that show displays and that don't transfer audio signals. I learnt that 
 there was problems with finding information on how they worked that wasn't from wikipedia. I think that, for the most part, most hardware 
 pieces are a bit self-explanatory and the common folk could figure it out. While working on this assignment, I found that a lot of information is either hidden or not online where it would be accessible on multiple people at any point in time.
+####Things I want to learn
+I would like to learn more about certain pieces of terminology that I didn't have time to see. I think that using the webpage as way of presenting is very interesting and going further with code and using it to create pleasing webpages is very important.

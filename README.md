@@ -20,3 +20,11 @@ What makes a good <insert name of hardware piece here> ? What should you look fo
 I can use correct terminology to describe computer hardware, speed measurements, and size measurements			
 
 I can describe the functions of the internal, network, and/or peripheral components of a computer			
+
+
+    Log
+    
+I think that learning about this was interesting. It was also kind of a challenge to find information on audio devices and the types.
+As it would take me to sites about input or output devices, things that show displays and that don't transfer audio signals. I learnt that 
+there was problems with finding information on how they worked that wasn't from wikipedia. I think that, for the most part, most hardware 
+pieces are a bit self-explanatory and the common folk could figure it out. While working on this assignment, I found that a lot of information is either hidden or not online where it would be accessible on multiple people at any point in time.
